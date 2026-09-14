@@ -25,7 +25,7 @@ request_temporal <- function( req = NULL, time_range )
 {
     # Check validity of temporal range parameter
     stopifnot(
-        "time_range must be a string" = is.charcter(time_range)
+        "time_range must be a string" = is.character(time_range)
     )
     
     # Form request
